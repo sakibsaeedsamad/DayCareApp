@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/team_tracker_logo_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.example.daycareapp.activities.AddReviewActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.daycareapp.activities.ViewBabyActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.daycareapp.activities.AboutUsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.daycareapp.activities.AddCaregiverActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.daycareapp.activities.AccountVerifyActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.daycareapp.activities.AddBabyActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.daycareapp.activities.BabyActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.daycareapp.activities.DateActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.daycareapp.activities.FeeActivity"
+            android:exported="false">
+            <meta-data
+                android:name="com.example.daycareapp.activitiesandroid.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.daycareapp.activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.daycareapp.activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.daycareapp.activities.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.daycareapp.activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.daycareapp.activities.ProtectedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.daycareapp.activities.ConfirmPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.daycareapp.activities.ReviewActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

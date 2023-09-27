@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_search"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    tools:context=".activities.ConfirmPaymentActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your have to take your calculated amount"
+        android:textSize="50px"
+        android:textAlignment="center"
+        android:layout_marginTop="10px"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you"
+        android:textSize="50px"
+        android:textAlignment="center"
+        android:layout_marginTop="10px"
+        ></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:text="Return Home page"
+        android:textAlignment="center"
+        android:layout_marginTop="10px"
+        android:id="@+id/returnbtid"
+        android:background="@drawable/bg_button"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        ></Button>
+
+
+</LinearLayout>
